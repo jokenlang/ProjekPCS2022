@@ -1,0 +1,10 @@
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\bin\Debug\proyek.exe.config
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\bin\Debug\proyek.exe
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\bin\Debug\proyek.pdb
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\obj\Debug\proyek.csproj.AssemblyReference.cache
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\obj\Debug\proyek.Form1.resources
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\obj\Debug\proyek.Properties.Resources.resources
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\obj\Debug\proyek.csproj.GenerateResource.cache
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\obj\Debug\proyek.csproj.CoreCompileInputs.cache
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\obj\Debug\proyek.exe
+E:\kuliah\sems 4\PCS\peroyek\proyek\proyek\obj\Debug\proyek.pdb
