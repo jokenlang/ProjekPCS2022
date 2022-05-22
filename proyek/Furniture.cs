@@ -12,9 +12,22 @@ namespace proyek
 {
     public partial class Furniture : Form
     {
-        public Furniture()
+        private Form f;
+        public Furniture(Form f)
         {
             InitializeComponent();
+        }
+
+        private void Furniture_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            f.Close();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            MasterAdmin m = new MasterAdmin(this);
+            m.Show();
+            this.Hide(); 
         }
     }
 }

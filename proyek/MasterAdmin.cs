@@ -30,5 +30,12 @@ namespace proyek
             form.Show();
             this.Hide();
         }
+
+        private void btnBeli_Click(object sender, EventArgs e)
+        {
+            Furniture fur = new Furniture(this);
+            fur.Show();
+            this.Hide();
+        }
     }
 }
