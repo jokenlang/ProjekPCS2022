@@ -25,9 +25,50 @@ namespace proyek
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+            koneksi.closeConn();
             MasterAdmin m = new MasterAdmin(this);
             m.Show();
             this.Hide(); 
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbIDfilm_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Furniture_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            koneksi.closeConn();
         }
     }
 }

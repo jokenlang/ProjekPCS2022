@@ -62,6 +62,7 @@
     <Compile Include="Furniture.Designer.cs">
       <DependentUpon>Furniture.cs</DependentUpon>
     </Compile>
+    <Compile Include="koneksi.cs" />
     <Compile Include="MasterAdmin.cs">
       <SubType>Form</SubType>
     </Compile>

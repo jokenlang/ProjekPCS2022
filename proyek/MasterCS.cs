@@ -23,8 +23,16 @@ namespace proyek
             f.Close();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+       
+
+        private void MasterCS_FormClosing(object sender, FormClosingEventArgs e)
         {
+            koneksi.closeConn();
+        }
+
+        private void btnExit_Click_1(object sender, EventArgs e)
+        {
+            koneksi.closeConn();
             Form1 form = new Form1();
             form.Show();
             this.Hide();

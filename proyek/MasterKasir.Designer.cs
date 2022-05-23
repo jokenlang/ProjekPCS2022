@@ -28,40 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
+            this.btnExit = new ePOSOne.btnProduct.Button_WOC();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button_WOC1
+            // btnExit
             // 
-            this.button_WOC1.BorderColor = System.Drawing.Color.Silver;
-            this.button_WOC1.ButtonColor = System.Drawing.Color.Red;
-            this.button_WOC1.Location = new System.Drawing.Point(273, 136);
-            this.button_WOC1.Name = "button_WOC1";
-            this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.button_WOC1.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.button_WOC1.Size = new System.Drawing.Size(75, 23);
-            this.button_WOC1.TabIndex = 0;
-            this.button_WOC1.Text = "button_WOC1";
-            this.button_WOC1.TextColor = System.Drawing.Color.White;
-            this.button_WOC1.UseVisualStyleBackColor = true;
+            this.btnExit.BorderColor = System.Drawing.Color.Silver;
+            this.btnExit.ButtonColor = System.Drawing.Color.Red;
+            this.btnExit.Location = new System.Drawing.Point(713, 397);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.OnHoverBorderColor = System.Drawing.Color.Gray;
+            this.btnExit.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.btnExit.OnHoverTextColor = System.Drawing.Color.Gray;
+            this.btnExit.Size = new System.Drawing.Size(75, 41);
+            this.btnExit.TabIndex = 34;
+            this.btnExit.Text = "Exit";
+            this.btnExit.TextColor = System.Drawing.Color.White;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.label1.Location = new System.Drawing.Point(13, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(249, 36);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "Customer Service";
             // 
             // MasterKasir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button_WOC1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnExit);
             this.Name = "MasterKasir";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MasterKasir";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MasterKasir_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MasterKasir_FormClosed);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private ePOSOne.btnProduct.Button_WOC button_WOC1;
+        private ePOSOne.btnProduct.Button_WOC btnExit;
+        private System.Windows.Forms.Label label1;
     }
 }

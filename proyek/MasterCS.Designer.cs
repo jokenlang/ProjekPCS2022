@@ -241,6 +241,7 @@
             this.btnExit.Text = "Exit";
             this.btnExit.TextColor = System.Drawing.Color.White;
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
             // MasterCS
             // 
@@ -267,6 +268,7 @@
             this.Name = "MasterCS";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MasterCS";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MasterCS_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MasterCS_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

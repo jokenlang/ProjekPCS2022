@@ -26,9 +26,11 @@ namespace proyek
 
         private void btnExit_Click(object sender, EventArgs e)
         {
+            koneksi.closeConn();
             Form1 form = new Form1();
             form.Show();
             this.Hide();
+
         }
 
         private void btnBeli_Click(object sender, EventArgs e)
@@ -36,6 +38,12 @@ namespace proyek
             Furniture fur = new Furniture(this);
             fur.Show();
             this.Hide();
+        }
+
+        private void MasterAdmin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+            koneksi.closeConn();
         }
     }
 }
