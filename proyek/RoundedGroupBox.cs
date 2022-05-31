@@ -11,7 +11,7 @@ public class RoundPanel : GroupBox
         this.TitleForeColor = Color.White;
         this.TitleFont = new Font(this.Font.FontFamily, Font.Size + 8, FontStyle.Bold);
         this.BackColor = Color.Transparent;
-        this.Radious = 25;
+        this.Radious = 5;
         this.TitleHatchStyle = HatchStyle.Percent60;
     }
     protected override void OnPaint(PaintEventArgs e)

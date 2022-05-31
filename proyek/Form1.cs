@@ -95,16 +95,5 @@ namespace proyek
                 MessageBox.Show("Semua field harus diisi");
             }
         }
-
-        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            f.Close();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-           
-            
-        }
     }
 }
