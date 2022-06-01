@@ -38,6 +38,7 @@ namespace proyek
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnLogin = new ePOSOne.btnProduct.Button_WOC();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -184,6 +185,7 @@ namespace proyek
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
