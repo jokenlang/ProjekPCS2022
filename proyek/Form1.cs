@@ -24,14 +24,14 @@ namespace proyek
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            /*koneksi.openConn("proyek_pcs_2022", "localhost", "root", "");*/
-            if (tbUsername.Text!=""&&tbPassword.Text!="")
+            koneksi.openConn("proyek_pcs_2022", "localhost", "root", "");
+            if (tbUsername.Text != "" && tbPassword.Text != "")
             {
                 // 2 == admin
 
                 try
                 {
-                   /* MySqlCommand cmd = new MySqlCommand("select status from pegawai where username = @username", koneksi.getConn());
+                    MySqlCommand cmd = new MySqlCommand("select status from pegawai where username = @username", koneksi.getConn());
                     cmd.Parameters.AddWithValue("@username", tbUsername.Text);
                     int status = Convert.ToInt32(cmd.ExecuteScalar());
 
@@ -39,51 +39,61 @@ namespace proyek
                     cmd.Parameters.AddWithValue("@username", tbUsername.Text);
                     int adauser = Convert.ToInt32(cmd.ExecuteScalar());
 
-                    cmd = new MySqlCommand("select password from pegawai where username = @password", koneksi.getConn());
-                    cmd.Parameters.AddWithValue("@password", tbPassword.Text);
-                    string adapass = cmd.ExecuteScalar().ToString();*/
+                    if (adauser > 0)
+                    {
 
-                    /* if (status == 1 && adauser > 0 && adapass != "" || adapass != null)
-                     {
-                         MasterAdmin m = new MasterAdmin(this);
-                         m.Show();
-                         this.Hide();
-                     }
-                     else if (status == 2 && adauser > 0 && adapass != "" || adapass != null)
-                     {
-                         MasterKasir m = new MasterKasir(this);
-                         m.Show();
-                         this.Hide();
-                     }
-                     else if (status == 3 && adauser > 0 && adapass != "" || adapass != null)
-                     {
-                         MasterCS m = new MasterCS(this);
-                         m.Show();
-                         this.Hide();
-                     }
-                     else
-                     {
-                         MessageBox.Show("Tidak terdaftar didatabase atau password salah");
-                     }*/
-                    if (tbUsername.Text=="admin")
-                    {
-                        MasterAdmin m = new MasterAdmin(this);
-                        m.Show();
-                        this.Hide();
+                        cmd = new MySqlCommand("select password from pegawai where username = @username", koneksi.getConn());
+                        cmd.Parameters.AddWithValue("@username", tbUsername.Text);
+                        string adapass = cmd.ExecuteScalar().ToString();
+                        Console.WriteLine(status);
+                        if (status == 1 && (adapass != "" || adapass != null))
+                        {
+                            MasterAdmin m = new MasterAdmin(this);
+                            this.Hide();
+                            m.Show();
+                        }
+                        else if (status == 2 && (adapass != "" || adapass != null))
+                        {
+                            MasterKasir m = new MasterKasir(this);
+                            this.Hide();
+                            m.Show();
+                        }
+                        else if (status == 3 && (adapass != "" || adapass != null))
+                        {
+                            MasterCS m = new MasterCS(this);
+                            this.Hide();
+                            m.Show();
+                        }
+                        else
+                        {
+                            koneksi.closeConn();
+                            MessageBox.Show("Tidak terdaftar didatabase atau password salah");
+                        }
                     }
-                    else if (tbUsername.Text == "kasir")
+                    else
                     {
-                        MasterKasir m = new MasterKasir(this);
-                        m.Show();
-                        this.Hide();
+                        MessageBox.Show("Username tidak ditemukan");
+                        koneksi.closeConn();
+                    }
+                    //if (tbUsername.Text=="admin")
+                    //{
+                    //    MasterAdmin m = new MasterAdmin(this);
+                    //    m.Show();
+                    //    this.Hide();
+                    //}
+                    //else if (tbUsername.Text == "kasir")
+                    //{
+                    //    MasterKasir m = new MasterKasir(this);
+                    //    m.Show();
+                    //    this.Hide();
 
-                    }
-                    else if (tbUsername.Text == "cs")
-                    {
-                        MasterCS m = new MasterCS(this);
-                        m.Show();
-                        this.Hide();
-                    }
+                    //}
+                    //else if (tbUsername.Text == "cs")
+                    //{
+                    //    MasterCS m = new MasterCS(this);
+                    //    m.Show();
+                    //    this.Hide();
+                    //}
                 }
                 catch (Exception)
                 {
@@ -94,6 +104,8 @@ namespace proyek
             {
                 MessageBox.Show("Semua field harus diisi");
             }
+            tbUsername.Text = "";
+            tbPassword.Text = "";
         }
     }
 }

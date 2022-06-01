@@ -16,11 +16,12 @@ namespace proyek
         public MasterCS(Form f)
         {
             InitializeComponent();
+            this.f = f;
         }
 
         private void MasterCS_FormClosed(object sender, FormClosedEventArgs e)
         {
-            f.Close();
+            f.Show();
         }
 
        
@@ -33,9 +34,7 @@ namespace proyek
         private void btnExit_Click_1(object sender, EventArgs e)
         {
             koneksi.closeConn();
-            Form1 form = new Form1();
-            form.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

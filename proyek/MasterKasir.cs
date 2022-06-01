@@ -16,18 +16,18 @@ namespace proyek
         public MasterKasir(Form f)
         {
             InitializeComponent();
+            this.f = f;
         }
 
         private void MasterKasir_FormClosed(object sender, FormClosedEventArgs e)
         {
-            f.Close();
+            f.Show();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             Form1 form = new Form1();
-            form.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void button_WOC1_Click(object sender, EventArgs e)
@@ -46,6 +46,20 @@ namespace proyek
         private void MasterKasir_FormClosing(object sender, FormClosingEventArgs e)
         {
             koneksi.closeConn();
+        }
+
+        private void MasterKasir_Load(object sender, EventArgs e)
+        {
+            ((Control)sender).Hide();
+        }
+
+        private void MasterKasir_Load_1(object sender, EventArgs e)
+        {
+        }
+
+        private void button_WOC2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
