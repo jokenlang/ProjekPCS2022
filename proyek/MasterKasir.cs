@@ -61,5 +61,11 @@ namespace proyek
         {
 
         }
+
+        private void btnExit_Click_2(object sender, EventArgs e)
+        {
+            koneksi.closeConn();
+            this.Close();
+        }
     }
 }

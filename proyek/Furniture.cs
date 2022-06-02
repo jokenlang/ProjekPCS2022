@@ -16,19 +16,18 @@ namespace proyek
         public Furniture(Form f)
         {
             InitializeComponent();
+            this.f = f; 
         }
 
         private void Furniture_FormClosed(object sender, FormClosedEventArgs e)
         {
-            f.Close();
+           f.Show();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            koneksi.closeConn();
-            MasterAdmin m = new MasterAdmin(this);
-            m.Show();
-            this.Hide(); 
+            /*koneksi.closeConn();*/
+            this.Close();
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)

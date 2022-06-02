@@ -47,13 +47,13 @@
             this.btnBuyBev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuyBev.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuyBev.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnBuyBev.Location = new System.Drawing.Point(26, 118);
-            this.btnBuyBev.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuyBev.Location = new System.Drawing.Point(35, 145);
+            this.btnBuyBev.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnBuyBev.Name = "btnBuyBev";
             this.btnBuyBev.OnHoverBorderColor = System.Drawing.Color.Transparent;
             this.btnBuyBev.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
             this.btnBuyBev.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnBuyBev.Size = new System.Drawing.Size(378, 58);
+            this.btnBuyBev.Size = new System.Drawing.Size(504, 71);
             this.btnBuyBev.TabIndex = 35;
             this.btnBuyBev.Text = "Buy Beverages";
             this.btnBuyBev.TextColor = System.Drawing.Color.White;
@@ -68,17 +68,18 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnExit.Location = new System.Drawing.Point(26, 184);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExit.Location = new System.Drawing.Point(35, 226);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnExit.Name = "btnExit";
             this.btnExit.OnHoverBorderColor = System.Drawing.Color.Transparent;
             this.btnExit.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
             this.btnExit.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnExit.Size = new System.Drawing.Size(378, 58);
+            this.btnExit.Size = new System.Drawing.Size(504, 71);
             this.btnExit.TabIndex = 36;
             this.btnExit.Text = "EXIT";
             this.btnExit.TextColor = System.Drawing.Color.White;
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_2);
             // 
             // btnBuyMovie
             // 
@@ -90,13 +91,13 @@
             this.btnBuyMovie.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuyMovie.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
             this.btnBuyMovie.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBuyMovie.Location = new System.Drawing.Point(26, 50);
-            this.btnBuyMovie.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuyMovie.Location = new System.Drawing.Point(35, 62);
+            this.btnBuyMovie.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnBuyMovie.Name = "btnBuyMovie";
             this.btnBuyMovie.OnHoverBorderColor = System.Drawing.Color.Transparent;
             this.btnBuyMovie.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
             this.btnBuyMovie.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnBuyMovie.Size = new System.Drawing.Size(378, 60);
+            this.btnBuyMovie.Size = new System.Drawing.Size(504, 74);
             this.btnBuyMovie.TabIndex = 37;
             this.btnBuyMovie.Text = "Buy Movie";
             this.btnBuyMovie.TextColor = System.Drawing.Color.White;
@@ -108,18 +109,21 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F);
-            this.label1.Location = new System.Drawing.Point(6, 16);
+            this.label1.Location = new System.Drawing.Point(8, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 33);
+            this.label1.Size = new System.Drawing.Size(129, 42);
             this.label1.TabIndex = 38;
             this.label1.Text = "KASIR";
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(150, 9);
+            this.groupBox1.Location = new System.Drawing.Point(200, 11);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(112, 56);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(149, 69);
             this.groupBox1.TabIndex = 39;
             this.groupBox1.TabStop = false;
             // 
@@ -128,21 +132,23 @@
             this.groupBox2.Controls.Add(this.btnBuyMovie);
             this.groupBox2.Controls.Add(this.btnExit);
             this.groupBox2.Controls.Add(this.btnBuyBev);
-            this.groupBox2.Location = new System.Drawing.Point(2, 31);
+            this.groupBox2.Location = new System.Drawing.Point(3, 38);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(447, 541);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(596, 666);
             this.groupBox2.TabIndex = 40;
             this.groupBox2.TabStop = false;
             // 
             // MasterKasir
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.ClientSize = new System.Drawing.Size(442, 295);
+            this.ClientSize = new System.Drawing.Size(589, 363);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MasterKasir";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MasterKasir";

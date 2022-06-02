@@ -24,10 +24,12 @@ namespace proyek
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            koneksi.closeConn();
             koneksi.openConn("proyek_pcs_2022", "localhost", "root", "");
+
             if (tbUsername.Text != "" && tbPassword.Text != "")
             {
-                // 2 == admin
+                // 2 == 
 
                 try
                 {
