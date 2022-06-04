@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnExit = new ePOSOne.btnProduct.Button_WOC();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.cbfilm = new System.Windows.Forms.ComboBox();
@@ -37,11 +36,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnInsert = new ePOSOne.btnProduct.Button_WOC();
-            this.btnUpdate = new ePOSOne.btnProduct.Button_WOC();
-            this.btnDelete = new ePOSOne.btnProduct.Button_WOC();
-            this.btnClear = new ePOSOne.btnProduct.Button_WOC();
-            this.btnBeli = new ePOSOne.btnProduct.Button_WOC();
             this.label4 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -52,24 +46,13 @@
             this.label12 = new System.Windows.Forms.Label();
             this.jam = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.btnClear = new ePOSOne.btnProduct.Button_WOC();
+            this.btnDelete = new ePOSOne.btnProduct.Button_WOC();
+            this.btnUpdate = new ePOSOne.btnProduct.Button_WOC();
+            this.btnInsert = new ePOSOne.btnProduct.Button_WOC();
+            this.btnExit = new ePOSOne.btnProduct.Button_WOC();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnExit
-            // 
-            this.btnExit.BorderColor = System.Drawing.Color.Silver;
-            this.btnExit.ButtonColor = System.Drawing.Color.Red;
-            this.btnExit.Location = new System.Drawing.Point(722, 480);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.btnExit.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.btnExit.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnExit.Size = new System.Drawing.Size(75, 41);
-            this.btnExit.TabIndex = 0;
-            this.btnExit.Text = "Exit";
-            this.btnExit.TextColor = System.Drawing.Color.White;
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // dataGridView1
             // 
@@ -158,91 +141,6 @@
             this.label7.Size = new System.Drawing.Size(54, 16);
             this.label7.TabIndex = 14;
             this.label7.Text = "ID Film :";
-            // 
-            // btnInsert
-            // 
-            this.btnInsert.BorderColor = System.Drawing.Color.Silver;
-            this.btnInsert.ButtonColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsert.Location = new System.Drawing.Point(39, 480);
-            this.btnInsert.Name = "btnInsert";
-            this.btnInsert.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.btnInsert.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.btnInsert.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnInsert.Size = new System.Drawing.Size(146, 41);
-            this.btnInsert.TabIndex = 28;
-            this.btnInsert.Text = "Insert";
-            this.btnInsert.TextColor = System.Drawing.Color.White;
-            this.btnInsert.UseVisualStyleBackColor = true;
-            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.BorderColor = System.Drawing.Color.Silver;
-            this.btnUpdate.ButtonColor = System.Drawing.Color.Lime;
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(202, 480);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.btnUpdate.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.btnUpdate.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnUpdate.Size = new System.Drawing.Size(146, 41);
-            this.btnUpdate.TabIndex = 29;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.TextColor = System.Drawing.Color.White;
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.BorderColor = System.Drawing.Color.Silver;
-            this.btnDelete.ButtonColor = System.Drawing.Color.Crimson;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(367, 479);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.btnDelete.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.btnDelete.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnDelete.Size = new System.Drawing.Size(146, 41);
-            this.btnDelete.TabIndex = 30;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.TextColor = System.Drawing.Color.White;
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnClear
-            // 
-            this.btnClear.BorderColor = System.Drawing.Color.Silver;
-            this.btnClear.ButtonColor = System.Drawing.Color.Transparent;
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(529, 479);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.btnClear.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.btnClear.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnClear.Size = new System.Drawing.Size(146, 41);
-            this.btnClear.TabIndex = 31;
-            this.btnClear.Text = "Clear";
-            this.btnClear.TextColor = System.Drawing.Color.White;
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
-            // btnBeli
-            // 
-            this.btnBeli.BorderColor = System.Drawing.Color.Silver;
-            this.btnBeli.ButtonColor = System.Drawing.Color.Goldenrod;
-            this.btnBeli.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBeli.Location = new System.Drawing.Point(651, 304);
-            this.btnBeli.Name = "btnBeli";
-            this.btnBeli.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.btnBeli.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.btnBeli.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnBeli.Size = new System.Drawing.Size(146, 41);
-            this.btnBeli.TabIndex = 32;
-            this.btnBeli.Text = "Furniture";
-            this.btnBeli.TextColor = System.Drawing.Color.White;
-            this.btnBeli.UseVisualStyleBackColor = true;
-            this.btnBeli.Click += new System.EventHandler(this.btnBeli_Click);
             // 
             // label4
             // 
@@ -338,10 +236,95 @@
             this.label8.TabIndex = 39;
             this.label8.Text = "Durasi Movie : ";
             // 
+            // btnClear
+            // 
+            this.btnClear.BorderColor = System.Drawing.Color.Silver;
+            this.btnClear.ButtonColor = System.Drawing.Color.Transparent;
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(529, 479);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.OnHoverBorderColor = System.Drawing.Color.Gray;
+            this.btnClear.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.btnClear.OnHoverTextColor = System.Drawing.Color.Gray;
+            this.btnClear.Size = new System.Drawing.Size(146, 41);
+            this.btnClear.TabIndex = 31;
+            this.btnClear.Text = "Clear";
+            this.btnClear.TextColor = System.Drawing.Color.White;
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.BorderColor = System.Drawing.Color.Silver;
+            this.btnDelete.ButtonColor = System.Drawing.Color.Crimson;
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(367, 479);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.OnHoverBorderColor = System.Drawing.Color.Gray;
+            this.btnDelete.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.btnDelete.OnHoverTextColor = System.Drawing.Color.Gray;
+            this.btnDelete.Size = new System.Drawing.Size(146, 41);
+            this.btnDelete.TabIndex = 30;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.TextColor = System.Drawing.Color.White;
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.BorderColor = System.Drawing.Color.Silver;
+            this.btnUpdate.ButtonColor = System.Drawing.Color.Lime;
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Location = new System.Drawing.Point(202, 480);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.OnHoverBorderColor = System.Drawing.Color.Gray;
+            this.btnUpdate.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.btnUpdate.OnHoverTextColor = System.Drawing.Color.Gray;
+            this.btnUpdate.Size = new System.Drawing.Size(146, 41);
+            this.btnUpdate.TabIndex = 29;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.TextColor = System.Drawing.Color.White;
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnInsert
+            // 
+            this.btnInsert.BorderColor = System.Drawing.Color.Silver;
+            this.btnInsert.ButtonColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsert.Location = new System.Drawing.Point(39, 480);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.OnHoverBorderColor = System.Drawing.Color.Gray;
+            this.btnInsert.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.btnInsert.OnHoverTextColor = System.Drawing.Color.Gray;
+            this.btnInsert.Size = new System.Drawing.Size(146, 41);
+            this.btnInsert.TabIndex = 28;
+            this.btnInsert.Text = "Insert";
+            this.btnInsert.TextColor = System.Drawing.Color.White;
+            this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.BorderColor = System.Drawing.Color.Silver;
+            this.btnExit.ButtonColor = System.Drawing.Color.Red;
+            this.btnExit.Location = new System.Drawing.Point(722, 480);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.OnHoverBorderColor = System.Drawing.Color.Gray;
+            this.btnExit.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.btnExit.OnHoverTextColor = System.Drawing.Color.Gray;
+            this.btnExit.Size = new System.Drawing.Size(75, 41);
+            this.btnExit.TabIndex = 0;
+            this.btnExit.Text = "Exit";
+            this.btnExit.TextColor = System.Drawing.Color.White;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // MasterAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
             this.ClientSize = new System.Drawing.Size(822, 533);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.detik);
@@ -353,7 +336,6 @@
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnBeli);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
@@ -394,7 +376,6 @@
         private ePOSOne.btnProduct.Button_WOC btnUpdate;
         private ePOSOne.btnProduct.Button_WOC btnDelete;
         private ePOSOne.btnProduct.Button_WOC btnClear;
-        private ePOSOne.btnProduct.Button_WOC btnBeli;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;

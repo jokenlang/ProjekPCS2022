@@ -34,14 +34,18 @@
             this.btnUpdate = new ePOSOne.btnProduct.Button_WOC();
             this.btnInsert = new ePOSOne.btnProduct.Button_WOC();
             this.btnBack = new ePOSOne.btnProduct.Button_WOC();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.tbIDfilm = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.tb_jumlah = new System.Windows.Forms.TextBox();
+            this.tb_nama = new System.Windows.Forms.TextBox();
+            this.tb_id = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +56,7 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 71);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
@@ -60,13 +64,14 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(690, 207);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // btnClear
             // 
             this.btnClear.BorderColor = System.Drawing.Color.Silver;
             this.btnClear.ButtonColor = System.Drawing.Color.Transparent;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(434, 398);
+            this.btnClear.Location = new System.Drawing.Point(434, 457);
             this.btnClear.Name = "btnClear";
             this.btnClear.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnClear.OnHoverButtonColor = System.Drawing.Color.Yellow;
@@ -76,13 +81,14 @@
             this.btnClear.Text = "Clear";
             this.btnClear.TextColor = System.Drawing.Color.White;
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnDelete
             // 
             this.btnDelete.BorderColor = System.Drawing.Color.Silver;
             this.btnDelete.ButtonColor = System.Drawing.Color.Crimson;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(292, 398);
+            this.btnDelete.Location = new System.Drawing.Point(292, 457);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnDelete.OnHoverButtonColor = System.Drawing.Color.Yellow;
@@ -92,13 +98,14 @@
             this.btnDelete.Text = "Delete";
             this.btnDelete.TextColor = System.Drawing.Color.White;
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
             this.btnUpdate.BorderColor = System.Drawing.Color.Silver;
             this.btnUpdate.ButtonColor = System.Drawing.Color.Lime;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(149, 398);
+            this.btnUpdate.Location = new System.Drawing.Point(149, 457);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnUpdate.OnHoverButtonColor = System.Drawing.Color.Yellow;
@@ -108,13 +115,14 @@
             this.btnUpdate.Text = "Update";
             this.btnUpdate.TextColor = System.Drawing.Color.White;
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnInsert
             // 
             this.btnInsert.BorderColor = System.Drawing.Color.Silver;
             this.btnInsert.ButtonColor = System.Drawing.Color.DeepSkyBlue;
             this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsert.Location = new System.Drawing.Point(8, 398);
+            this.btnInsert.Location = new System.Drawing.Point(8, 457);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnInsert.OnHoverButtonColor = System.Drawing.Color.Yellow;
@@ -124,12 +132,13 @@
             this.btnInsert.Text = "Insert";
             this.btnInsert.TextColor = System.Drawing.Color.White;
             this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // btnBack
             // 
             this.btnBack.BorderColor = System.Drawing.Color.Silver;
             this.btnBack.ButtonColor = System.Drawing.Color.Red;
-            this.btnBack.Location = new System.Drawing.Point(627, 399);
+            this.btnBack.Location = new System.Drawing.Point(627, 458);
             this.btnBack.Name = "btnBack";
             this.btnBack.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnBack.OnHoverButtonColor = System.Drawing.Color.Yellow;
@@ -141,94 +150,129 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // textBox3
+            // tb_jumlah
             // 
-            this.textBox3.Location = new System.Drawing.Point(152, 298);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(101, 22);
-            this.textBox3.TabIndex = 43;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.tb_jumlah.Location = new System.Drawing.Point(152, 357);
+            this.tb_jumlah.Name = "tb_jumlah";
+            this.tb_jumlah.Size = new System.Drawing.Size(101, 22);
+            this.tb_jumlah.TabIndex = 43;
+            this.tb_jumlah.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_jumlah_KeyPress);
             // 
-            // textBox2
+            // tb_nama
             // 
-            this.textBox2.Location = new System.Drawing.Point(152, 270);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(101, 22);
-            this.textBox2.TabIndex = 42;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.tb_nama.Location = new System.Drawing.Point(152, 329);
+            this.tb_nama.Name = "tb_nama";
+            this.tb_nama.Size = new System.Drawing.Size(101, 22);
+            this.tb_nama.TabIndex = 42;
             // 
-            // tbIDfilm
+            // tb_id
             // 
-            this.tbIDfilm.Location = new System.Drawing.Point(152, 244);
-            this.tbIDfilm.Name = "tbIDfilm";
-            this.tbIDfilm.ReadOnly = true;
-            this.tbIDfilm.Size = new System.Drawing.Size(101, 22);
-            this.tbIDfilm.TabIndex = 41;
-            this.tbIDfilm.TextChanged += new System.EventHandler(this.tbIDfilm_TextChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(23, 329);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 16);
-            this.label4.TabIndex = 40;
-            this.label4.Text = "jenis :";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.tb_id.Location = new System.Drawing.Point(152, 303);
+            this.tb_id.Name = "tb_id";
+            this.tb_id.ReadOnly = true;
+            this.tb_id.Size = new System.Drawing.Size(101, 22);
+            this.tb_id.TabIndex = 41;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 298);
+            this.label3.Location = new System.Drawing.Point(23, 357);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 16);
             this.label3.TabIndex = 39;
             this.label3.Text = "jumlah :";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 270);
+            this.label2.Location = new System.Drawing.Point(23, 329);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 16);
             this.label2.TabIndex = 38;
             this.label2.Text = "Nama furniture :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(23, 244);
+            this.label7.Location = new System.Drawing.Point(23, 303);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(77, 16);
             this.label7.TabIndex = 37;
             this.label7.Text = "ID Furniture:";
             // 
-            // comboBox1
+            // label1
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "2D",
-            "3D",
-            "Premiere",
-            "IMAX"});
-            this.comboBox1.Location = new System.Drawing.Point(152, 326);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 44;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(23, 390);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(107, 16);
+            this.label1.TabIndex = 44;
+            this.label1.Text = "Tanggal Masuk :";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(149, 385);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker1.TabIndex = 45;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(23, 416);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 16);
+            this.label4.TabIndex = 46;
+            this.label4.Text = "Status :";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(149, 416);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(67, 20);
+            this.radioButton1.TabIndex = 47;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Bagus";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(231, 416);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(67, 20);
+            this.radioButton2.TabIndex = 48;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Rusak";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.label5.Location = new System.Drawing.Point(225, 19);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(240, 36);
+            this.label5.TabIndex = 49;
+            this.label5.Text = "Cleaning Service";
             // 
             // Furniture
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(714, 450);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.tbIDfilm);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.ClientSize = new System.Drawing.Size(714, 515);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.tb_jumlah);
+            this.Controls.Add(this.tb_nama);
+            this.Controls.Add(this.tb_id);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label7);
@@ -243,6 +287,7 @@
             this.Text = "Furniture";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Furniture_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Furniture_FormClosed);
+            this.Load += new System.EventHandler(this.Furniture_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -257,13 +302,17 @@
         private ePOSOne.btnProduct.Button_WOC btnUpdate;
         private ePOSOne.btnProduct.Button_WOC btnInsert;
         private ePOSOne.btnProduct.Button_WOC btnBack;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox tbIDfilm;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tb_jumlah;
+        private System.Windows.Forms.TextBox tb_nama;
+        private System.Windows.Forms.TextBox tb_id;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Label label5;
     }
 }
