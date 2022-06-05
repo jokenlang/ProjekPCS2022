@@ -62,13 +62,14 @@
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 48);
+            this.dataGridView1.Location = new System.Drawing.Point(9, 39);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(798, 237);
+            this.dataGridView1.Size = new System.Drawing.Size(598, 193);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
@@ -76,10 +77,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label1.Location = new System.Drawing.Point(348, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(261, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 36);
+            this.label1.Size = new System.Drawing.Size(81, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "Admin";
             // 
@@ -95,68 +95,76 @@
             "Science Fiction ",
             "Thriller",
             "Romance"});
-            this.cbfilm.Location = new System.Drawing.Point(140, 388);
+            this.cbfilm.Location = new System.Drawing.Point(105, 315);
+            this.cbfilm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbfilm.Name = "cbfilm";
-            this.cbfilm.Size = new System.Drawing.Size(121, 24);
+            this.cbfilm.Size = new System.Drawing.Size(92, 21);
             this.cbfilm.TabIndex = 24;
             // 
             // tbfilm
             // 
-            this.tbfilm.Location = new System.Drawing.Point(141, 329);
+            this.tbfilm.Location = new System.Drawing.Point(106, 267);
+            this.tbfilm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbfilm.Name = "tbfilm";
-            this.tbfilm.Size = new System.Drawing.Size(101, 22);
+            this.tbfilm.Size = new System.Drawing.Size(77, 20);
             this.tbfilm.TabIndex = 21;
             // 
             // tbIDfilm
             // 
-            this.tbIDfilm.Location = new System.Drawing.Point(141, 303);
+            this.tbIDfilm.Location = new System.Drawing.Point(106, 246);
+            this.tbIDfilm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbIDfilm.Name = "tbIDfilm";
             this.tbIDfilm.ReadOnly = true;
-            this.tbIDfilm.Size = new System.Drawing.Size(101, 22);
+            this.tbIDfilm.Size = new System.Drawing.Size(77, 20);
             this.tbIDfilm.TabIndex = 20;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 391);
+            this.label5.Location = new System.Drawing.Point(9, 318);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 17);
+            this.label5.Size = new System.Drawing.Size(58, 13);
             this.label5.TabIndex = 18;
             this.label5.Text = "genre film :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 329);
+            this.label2.Location = new System.Drawing.Point(9, 267);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 17);
+            this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 15;
             this.label2.Text = "Judul Film :";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 303);
+            this.label7.Location = new System.Drawing.Point(9, 246);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 17);
+            this.label7.Size = new System.Drawing.Size(45, 13);
             this.label7.TabIndex = 14;
             this.label7.Text = "ID Film :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 422);
+            this.label4.Location = new System.Drawing.Point(10, 343);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 17);
+            this.label4.Size = new System.Drawing.Size(59, 13);
             this.label4.TabIndex = 33;
             this.label4.Text = "status film :";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(134, 420);
+            this.radioButton1.Location = new System.Drawing.Point(100, 341);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(103, 21);
+            this.radioButton1.Size = new System.Drawing.Size(81, 17);
             this.radioButton1.TabIndex = 34;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "playing now";
@@ -165,9 +173,10 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(243, 420);
+            this.radioButton2.Location = new System.Drawing.Point(182, 341);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(109, 21);
+            this.radioButton2.Size = new System.Drawing.Size(85, 17);
             this.radioButton2.TabIndex = 35;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "coming soon";
@@ -176,17 +185,19 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(301, 364);
+            this.label14.Location = new System.Drawing.Point(226, 296);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(38, 17);
+            this.label14.Size = new System.Drawing.Size(30, 13);
             this.label14.TabIndex = 45;
             this.label14.Text = "detik";
             // 
             // detik
             // 
-            this.detik.Location = new System.Drawing.Point(273, 361);
+            this.detik.Location = new System.Drawing.Point(205, 293);
+            this.detik.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.detik.Name = "detik";
-            this.detik.Size = new System.Drawing.Size(22, 22);
+            this.detik.Size = new System.Drawing.Size(18, 20);
             this.detik.TabIndex = 44;
             this.detik.Text = "0";
             this.detik.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.detik_KeyPress);
@@ -194,17 +205,19 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(225, 363);
+            this.label13.Location = new System.Drawing.Point(169, 295);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(42, 17);
+            this.label13.Size = new System.Drawing.Size(32, 13);
             this.label13.TabIndex = 43;
             this.label13.Text = "menit";
             // 
             // menit
             // 
-            this.menit.Location = new System.Drawing.Point(197, 360);
+            this.menit.Location = new System.Drawing.Point(148, 292);
+            this.menit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.menit.Name = "menit";
-            this.menit.Size = new System.Drawing.Size(22, 22);
+            this.menit.Size = new System.Drawing.Size(18, 20);
             this.menit.TabIndex = 42;
             this.menit.Text = "0";
             this.menit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.menit_KeyPress);
@@ -212,17 +225,19 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(168, 364);
+            this.label12.Location = new System.Drawing.Point(126, 296);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(30, 17);
+            this.label12.Size = new System.Drawing.Size(23, 13);
             this.label12.TabIndex = 41;
             this.label12.Text = "jam";
             // 
             // jam
             // 
-            this.jam.Location = new System.Drawing.Point(140, 360);
+            this.jam.Location = new System.Drawing.Point(105, 292);
+            this.jam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.jam.Name = "jam";
-            this.jam.Size = new System.Drawing.Size(22, 22);
+            this.jam.Size = new System.Drawing.Size(18, 20);
             this.jam.TabIndex = 40;
             this.jam.Text = "0";
             this.jam.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.jam_KeyPress);
@@ -230,23 +245,27 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 360);
+            this.label8.Location = new System.Drawing.Point(9, 292);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(102, 17);
+            this.label8.Size = new System.Drawing.Size(78, 13);
             this.label8.TabIndex = 39;
             this.label8.Text = "Durasi Movie : ";
             // 
             // btnClear
             // 
-            this.btnClear.BorderColor = System.Drawing.Color.Silver;
-            this.btnClear.ButtonColor = System.Drawing.Color.Transparent;
+            this.btnClear.BorderColor = System.Drawing.Color.Transparent;
+            this.btnClear.ButtonColor = System.Drawing.Color.Silver;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(529, 479);
+            this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.btnClear.Location = new System.Drawing.Point(397, 389);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClear.Name = "btnClear";
             this.btnClear.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnClear.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnClear.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnClear.Size = new System.Drawing.Size(146, 41);
+            this.btnClear.Size = new System.Drawing.Size(110, 33);
             this.btnClear.TabIndex = 31;
             this.btnClear.Text = "Clear";
             this.btnClear.TextColor = System.Drawing.Color.White;
@@ -255,15 +274,18 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.BorderColor = System.Drawing.Color.Silver;
+            this.btnDelete.BorderColor = System.Drawing.Color.Transparent;
             this.btnDelete.ButtonColor = System.Drawing.Color.Crimson;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(367, 479);
+            this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.btnDelete.Location = new System.Drawing.Point(275, 389);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnDelete.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnDelete.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnDelete.Size = new System.Drawing.Size(146, 41);
+            this.btnDelete.Size = new System.Drawing.Size(110, 33);
             this.btnDelete.TabIndex = 30;
             this.btnDelete.Text = "Delete";
             this.btnDelete.TextColor = System.Drawing.Color.White;
@@ -272,15 +294,18 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.BorderColor = System.Drawing.Color.Silver;
+            this.btnInsert.BorderColor = System.Drawing.Color.Transparent;
             this.btnInsert.ButtonColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsert.Location = new System.Drawing.Point(39, 480);
+            this.btnInsert.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.btnInsert.Location = new System.Drawing.Point(29, 390);
+            this.btnInsert.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnInsert.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnInsert.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnInsert.Size = new System.Drawing.Size(146, 41);
+            this.btnInsert.Size = new System.Drawing.Size(110, 33);
             this.btnInsert.TabIndex = 28;
             this.btnInsert.Text = "Insert";
             this.btnInsert.TextColor = System.Drawing.Color.White;
@@ -289,14 +314,17 @@
             // 
             // btnExit
             // 
-            this.btnExit.BorderColor = System.Drawing.Color.Silver;
+            this.btnExit.BorderColor = System.Drawing.Color.Transparent;
             this.btnExit.ButtonColor = System.Drawing.Color.Red;
-            this.btnExit.Location = new System.Drawing.Point(722, 480);
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.btnExit.Location = new System.Drawing.Point(542, 390);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
             this.btnExit.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnExit.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnExit.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnExit.Size = new System.Drawing.Size(75, 41);
+            this.btnExit.Size = new System.Drawing.Size(56, 33);
             this.btnExit.TabIndex = 0;
             this.btnExit.Text = "Exit";
             this.btnExit.TextColor = System.Drawing.Color.White;
@@ -305,15 +333,18 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BorderColor = System.Drawing.Color.Silver;
+            this.btnUpdate.BorderColor = System.Drawing.Color.Transparent;
             this.btnUpdate.ButtonColor = System.Drawing.Color.Lime;
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(202, 480);
+            this.btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.btnUpdate.Location = new System.Drawing.Point(152, 390);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnUpdate.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnUpdate.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnUpdate.Size = new System.Drawing.Size(146, 41);
+            this.btnUpdate.Size = new System.Drawing.Size(110, 33);
             this.btnUpdate.TabIndex = 29;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.TextColor = System.Drawing.Color.White;
@@ -322,10 +353,10 @@
             // 
             // MasterAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.ClientSize = new System.Drawing.Size(822, 533);
+            this.ClientSize = new System.Drawing.Size(616, 433);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.detik);
             this.Controls.Add(this.label13);
@@ -349,6 +380,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnExit);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MasterAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MasterAdmin";
