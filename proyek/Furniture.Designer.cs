@@ -56,14 +56,14 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(9, 58);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 71);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(518, 168);
+            this.dataGridView1.Size = new System.Drawing.Size(691, 207);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
@@ -74,13 +74,13 @@
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnClear.Location = new System.Drawing.Point(326, 371);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClear.Location = new System.Drawing.Point(435, 457);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
             this.btnClear.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnClear.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnClear.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnClear.Size = new System.Drawing.Size(86, 33);
+            this.btnClear.Size = new System.Drawing.Size(115, 41);
             this.btnClear.TabIndex = 36;
             this.btnClear.Text = "Clear";
             this.btnClear.TextColor = System.Drawing.Color.White;
@@ -94,13 +94,13 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnDelete.Location = new System.Drawing.Point(219, 371);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Location = new System.Drawing.Point(292, 457);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnDelete.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnDelete.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnDelete.Size = new System.Drawing.Size(95, 33);
+            this.btnDelete.Size = new System.Drawing.Size(127, 41);
             this.btnDelete.TabIndex = 35;
             this.btnDelete.Text = "Delete";
             this.btnDelete.TextColor = System.Drawing.Color.White;
@@ -114,13 +114,13 @@
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnUpdate.Location = new System.Drawing.Point(112, 371);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdate.Location = new System.Drawing.Point(149, 457);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnUpdate.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnUpdate.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnUpdate.Size = new System.Drawing.Size(92, 33);
+            this.btnUpdate.Size = new System.Drawing.Size(123, 41);
             this.btnUpdate.TabIndex = 34;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.TextColor = System.Drawing.Color.White;
@@ -134,13 +134,13 @@
             this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsert.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnInsert.Location = new System.Drawing.Point(6, 371);
-            this.btnInsert.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnInsert.Location = new System.Drawing.Point(8, 457);
+            this.btnInsert.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnInsert.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnInsert.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnInsert.Size = new System.Drawing.Size(93, 33);
+            this.btnInsert.Size = new System.Drawing.Size(124, 41);
             this.btnInsert.TabIndex = 33;
             this.btnInsert.Text = "Insert";
             this.btnInsert.TextColor = System.Drawing.Color.White;
@@ -153,13 +153,13 @@
             this.btnBack.ButtonColor = System.Drawing.Color.Red;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnBack.Location = new System.Drawing.Point(470, 372);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBack.Location = new System.Drawing.Point(627, 458);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBack.Name = "btnBack";
             this.btnBack.OnHoverBorderColor = System.Drawing.Color.Gray;
             this.btnBack.OnHoverButtonColor = System.Drawing.Color.Yellow;
             this.btnBack.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnBack.Size = new System.Drawing.Size(56, 33);
+            this.btnBack.Size = new System.Drawing.Size(75, 41);
             this.btnBack.TabIndex = 32;
             this.btnBack.Text = "Back";
             this.btnBack.TextColor = System.Drawing.Color.White;
@@ -168,95 +168,90 @@
             // 
             // tb_jumlah
             // 
-            this.tb_jumlah.Location = new System.Drawing.Point(114, 290);
-            this.tb_jumlah.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_jumlah.Location = new System.Drawing.Point(152, 357);
+            this.tb_jumlah.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_jumlah.Name = "tb_jumlah";
-            this.tb_jumlah.Size = new System.Drawing.Size(77, 20);
+            this.tb_jumlah.Size = new System.Drawing.Size(101, 22);
             this.tb_jumlah.TabIndex = 43;
             this.tb_jumlah.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_jumlah_KeyPress);
             // 
             // tb_nama
             // 
-            this.tb_nama.Location = new System.Drawing.Point(114, 267);
-            this.tb_nama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_nama.Location = new System.Drawing.Point(152, 329);
+            this.tb_nama.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_nama.Name = "tb_nama";
-            this.tb_nama.Size = new System.Drawing.Size(77, 20);
+            this.tb_nama.Size = new System.Drawing.Size(101, 22);
             this.tb_nama.TabIndex = 42;
             // 
             // tb_id
             // 
-            this.tb_id.Location = new System.Drawing.Point(114, 246);
-            this.tb_id.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_id.Location = new System.Drawing.Point(152, 303);
+            this.tb_id.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_id.Name = "tb_id";
             this.tb_id.ReadOnly = true;
-            this.tb_id.Size = new System.Drawing.Size(77, 20);
+            this.tb_id.Size = new System.Drawing.Size(101, 22);
             this.tb_id.TabIndex = 41;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(17, 290);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(23, 357);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.Size = new System.Drawing.Size(52, 16);
             this.label3.TabIndex = 39;
             this.label3.Text = "jumlah :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 267);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(23, 329);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
+            this.label2.Size = new System.Drawing.Size(99, 16);
             this.label2.TabIndex = 38;
             this.label2.Text = "Nama furniture :";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 246);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(23, 303);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 13);
+            this.label7.Size = new System.Drawing.Size(77, 16);
             this.label7.TabIndex = 37;
             this.label7.Text = "ID Furniture:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 317);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(23, 390);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 13);
+            this.label1.Size = new System.Drawing.Size(107, 16);
             this.label1.TabIndex = 44;
             this.label1.Text = "Tanggal Masuk :";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(112, 313);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker1.Location = new System.Drawing.Point(149, 385);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(151, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker1.TabIndex = 45;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 338);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(23, 416);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 13);
+            this.label4.Size = new System.Drawing.Size(50, 16);
             this.label4.TabIndex = 46;
             this.label4.Text = "Status :";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(112, 338);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton1.Location = new System.Drawing.Point(149, 416);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(55, 17);
+            this.radioButton1.Size = new System.Drawing.Size(67, 20);
             this.radioButton1.TabIndex = 47;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Bagus";
@@ -265,10 +260,10 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(173, 338);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton2.Location = new System.Drawing.Point(231, 416);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(56, 17);
+            this.radioButton2.Size = new System.Drawing.Size(67, 20);
             this.radioButton2.TabIndex = 48;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Rusak";
@@ -278,18 +273,19 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label5.Location = new System.Drawing.Point(169, 15);
+            this.label5.Location = new System.Drawing.Point(286, 19);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(196, 29);
+            this.label5.Size = new System.Drawing.Size(143, 36);
             this.label5.TabIndex = 49;
-            this.label5.Text = "Cleaning Service";
+            this.label5.Text = "Furniture ";
             // 
             // Furniture
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.ClientSize = new System.Drawing.Size(536, 418);
+            this.ClientSize = new System.Drawing.Size(715, 514);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
@@ -308,7 +304,7 @@
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Furniture";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Furniture";
