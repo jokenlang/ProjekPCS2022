@@ -67,5 +67,10 @@ namespace proyek
             koneksi.closeConn();
             this.Close();
         }
+
+        private void btnBuyBev_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

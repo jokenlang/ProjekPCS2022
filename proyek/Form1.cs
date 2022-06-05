@@ -50,7 +50,7 @@ namespace proyek
                         Console.WriteLine(status);
                         if (status == 1 && (adapass != "" || adapass != null))
                         {
-                            MasterAdmin m = new MasterAdmin(this);
+                            ControllerAdmin m = new ControllerAdmin(this);
                             this.Hide();
                             m.Show();
                         }

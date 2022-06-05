@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControllerAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControllerAdmin.Designer.cs">
+      <DependentUpon>ControllerAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -97,6 +103,9 @@
     <Compile Include="TestingGround.Designer.cs">
       <DependentUpon>TestingGround.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ControllerAdmin.resx">
+      <DependentUpon>ControllerAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
