@@ -45,7 +45,7 @@ namespace proyek
 
         private void Furniture_FormClosing(object sender, FormClosingEventArgs e)
         {
-            koneksi.closeConn();
+            /*koneksi.closeConn();*/
         }
 
         public void gid()
@@ -56,7 +56,7 @@ namespace proyek
                 cmd = new MySqlCommand();
                 cmd.Connection = koneksi.getConn();
 
-                cmd.CommandText = "SELECT COUNT(fur_id)+1 FROM furniture";
+                cmd.CommandText = "SELECT COUNT(*)+1 FROM furniture";
 
 
                 try

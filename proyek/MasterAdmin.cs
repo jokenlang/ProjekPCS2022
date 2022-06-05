@@ -73,7 +73,7 @@ namespace proyek
         private void MasterAdmin_FormClosing(object sender, FormClosingEventArgs e)
         {
 
-            koneksi.closeConn();
+           /* koneksi.closeConn();*/
         }
 
         public void gid()
@@ -84,7 +84,7 @@ namespace proyek
                 cmd = new MySqlCommand();
                 cmd.Connection = koneksi.getConn();
 
-                cmd.CommandText = "SELECT COUNT(mo_id)+1 FROM movie";
+                cmd.CommandText = "SELECT COUNT(*)+1 FROM movie";
 
                
                 try

@@ -16,5 +16,10 @@ namespace proyek
         {
             InitializeComponent();
         }
+
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
