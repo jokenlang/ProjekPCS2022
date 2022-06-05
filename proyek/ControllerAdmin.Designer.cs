@@ -33,12 +33,12 @@ namespace proyek
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button_WOC3 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC2 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
             this.btnBuyFurniture = new ePOSOne.btnProduct.Button_WOC();
             this.btnExit = new ePOSOne.btnProduct.Button_WOC();
             this.btnEditMovie = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC2 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC3 = new ePOSOne.btnProduct.Button_WOC();
             this.roundPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -49,10 +49,12 @@ namespace proyek
             this.roundPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
             this.roundPanel1.Controls.Add(this.groupBox1);
             this.roundPanel1.Controls.Add(this.groupBox2);
-            this.roundPanel1.Location = new System.Drawing.Point(-15, -16);
+            this.roundPanel1.Location = new System.Drawing.Point(-20, -20);
+            this.roundPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.roundPanel1.Name = "roundPanel1";
+            this.roundPanel1.Padding = new System.Windows.Forms.Padding(4);
             this.roundPanel1.Radious = 25;
-            this.roundPanel1.Size = new System.Drawing.Size(459, 541);
+            this.roundPanel1.Size = new System.Drawing.Size(612, 666);
             this.roundPanel1.TabIndex = 1;
             this.roundPanel1.TabStop = false;
             this.roundPanel1.Text = "roundPanel1";
@@ -64,9 +66,11 @@ namespace proyek
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(174, 34);
+            this.groupBox1.Location = new System.Drawing.Point(232, 42);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(122, 56);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(163, 69);
             this.groupBox1.TabIndex = 41;
             this.groupBox1.TabStop = false;
             // 
@@ -74,9 +78,10 @@ namespace proyek
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 16);
+            this.label1.Location = new System.Drawing.Point(8, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 33);
+            this.label1.Size = new System.Drawing.Size(142, 42);
             this.label1.TabIndex = 38;
             this.label1.Text = "ADMIN";
             // 
@@ -88,11 +93,76 @@ namespace proyek
             this.groupBox2.Controls.Add(this.btnBuyFurniture);
             this.groupBox2.Controls.Add(this.btnExit);
             this.groupBox2.Controls.Add(this.btnEditMovie);
-            this.groupBox2.Location = new System.Drawing.Point(6, 56);
+            this.groupBox2.Location = new System.Drawing.Point(8, 69);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(447, 722);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(596, 889);
             this.groupBox2.TabIndex = 42;
             this.groupBox2.TabStop = false;
+            // 
+            // button_WOC3
+            // 
+            this.button_WOC3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.button_WOC3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button_WOC3.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC3.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(14)))), ((int)(((byte)(9)))));
+            this.button_WOC3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_WOC3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.button_WOC3.Location = new System.Drawing.Point(29, 389);
+            this.button_WOC3.Margin = new System.Windows.Forms.Padding(5);
+            this.button_WOC3.Name = "button_WOC3";
+            this.button_WOC3.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC3.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
+            this.button_WOC3.OnHoverTextColor = System.Drawing.Color.White;
+            this.button_WOC3.Size = new System.Drawing.Size(552, 71);
+            this.button_WOC3.TabIndex = 40;
+            this.button_WOC3.Text = "Laporan Keuntungan";
+            this.button_WOC3.TextColor = System.Drawing.Color.White;
+            this.button_WOC3.UseVisualStyleBackColor = false;
+            // 
+            // button_WOC2
+            // 
+            this.button_WOC2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.button_WOC2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button_WOC2.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC2.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(14)))), ((int)(((byte)(9)))));
+            this.button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_WOC2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.button_WOC2.Location = new System.Drawing.Point(29, 308);
+            this.button_WOC2.Margin = new System.Windows.Forms.Padding(5);
+            this.button_WOC2.Name = "button_WOC2";
+            this.button_WOC2.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC2.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
+            this.button_WOC2.OnHoverTextColor = System.Drawing.Color.White;
+            this.button_WOC2.Size = new System.Drawing.Size(552, 71);
+            this.button_WOC2.TabIndex = 39;
+            this.button_WOC2.Text = "Laporan Penjualan Beverage";
+            this.button_WOC2.TextColor = System.Drawing.Color.White;
+            this.button_WOC2.UseVisualStyleBackColor = false;
+            // 
+            // button_WOC1
+            // 
+            this.button_WOC1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.button_WOC1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button_WOC1.BorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(14)))), ((int)(((byte)(9)))));
+            this.button_WOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_WOC1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
+            this.button_WOC1.Location = new System.Drawing.Point(29, 226);
+            this.button_WOC1.Margin = new System.Windows.Forms.Padding(5);
+            this.button_WOC1.Name = "button_WOC1";
+            this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
+            this.button_WOC1.OnHoverTextColor = System.Drawing.Color.White;
+            this.button_WOC1.Size = new System.Drawing.Size(552, 71);
+            this.button_WOC1.TabIndex = 38;
+            this.button_WOC1.Text = "Laporan Penjualan Tiket";
+            this.button_WOC1.TextColor = System.Drawing.Color.White;
+            this.button_WOC1.UseVisualStyleBackColor = false;
             // 
             // btnBuyFurniture
             // 
@@ -104,13 +174,13 @@ namespace proyek
             this.btnBuyFurniture.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuyFurniture.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
             this.btnBuyFurniture.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBuyFurniture.Location = new System.Drawing.Point(22, 50);
-            this.btnBuyFurniture.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuyFurniture.Location = new System.Drawing.Point(29, 62);
+            this.btnBuyFurniture.Margin = new System.Windows.Forms.Padding(5);
             this.btnBuyFurniture.Name = "btnBuyFurniture";
             this.btnBuyFurniture.OnHoverBorderColor = System.Drawing.Color.Transparent;
             this.btnBuyFurniture.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
             this.btnBuyFurniture.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnBuyFurniture.Size = new System.Drawing.Size(414, 60);
+            this.btnBuyFurniture.Size = new System.Drawing.Size(552, 74);
             this.btnBuyFurniture.TabIndex = 37;
             this.btnBuyFurniture.Text = "Buy Furniture";
             this.btnBuyFurniture.TextColor = System.Drawing.Color.White;
@@ -127,17 +197,18 @@ namespace proyek
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnExit.Location = new System.Drawing.Point(22, 382);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExit.Location = new System.Drawing.Point(29, 470);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(5);
             this.btnExit.Name = "btnExit";
             this.btnExit.OnHoverBorderColor = System.Drawing.Color.Transparent;
             this.btnExit.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
             this.btnExit.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnExit.Size = new System.Drawing.Size(414, 58);
+            this.btnExit.Size = new System.Drawing.Size(552, 71);
             this.btnExit.TabIndex = 36;
             this.btnExit.Text = "EXIT";
             this.btnExit.TextColor = System.Drawing.Color.White;
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnEditMovie
             // 
@@ -148,88 +219,26 @@ namespace proyek
             this.btnEditMovie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditMovie.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditMovie.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnEditMovie.Location = new System.Drawing.Point(22, 118);
-            this.btnEditMovie.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEditMovie.Location = new System.Drawing.Point(29, 145);
+            this.btnEditMovie.Margin = new System.Windows.Forms.Padding(5);
             this.btnEditMovie.Name = "btnEditMovie";
             this.btnEditMovie.OnHoverBorderColor = System.Drawing.Color.Transparent;
             this.btnEditMovie.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
             this.btnEditMovie.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnEditMovie.Size = new System.Drawing.Size(414, 58);
+            this.btnEditMovie.Size = new System.Drawing.Size(552, 71);
             this.btnEditMovie.TabIndex = 35;
             this.btnEditMovie.Text = "Edit Movie";
             this.btnEditMovie.TextColor = System.Drawing.Color.White;
             this.btnEditMovie.UseVisualStyleBackColor = false;
             this.btnEditMovie.Click += new System.EventHandler(this.btnEditMovie_Click);
             // 
-            // button_WOC1
-            // 
-            this.button_WOC1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.button_WOC1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button_WOC1.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(14)))), ((int)(((byte)(9)))));
-            this.button_WOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_WOC1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.button_WOC1.Location = new System.Drawing.Point(22, 184);
-            this.button_WOC1.Margin = new System.Windows.Forms.Padding(4);
-            this.button_WOC1.Name = "button_WOC1";
-            this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
-            this.button_WOC1.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_WOC1.Size = new System.Drawing.Size(414, 58);
-            this.button_WOC1.TabIndex = 38;
-            this.button_WOC1.Text = "Laporan Penjualan Tiket";
-            this.button_WOC1.TextColor = System.Drawing.Color.White;
-            this.button_WOC1.UseVisualStyleBackColor = false;
-            // 
-            // button_WOC2
-            // 
-            this.button_WOC2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.button_WOC2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button_WOC2.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(14)))), ((int)(((byte)(9)))));
-            this.button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_WOC2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.button_WOC2.Location = new System.Drawing.Point(22, 250);
-            this.button_WOC2.Margin = new System.Windows.Forms.Padding(4);
-            this.button_WOC2.Name = "button_WOC2";
-            this.button_WOC2.OnHoverBorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC2.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
-            this.button_WOC2.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_WOC2.Size = new System.Drawing.Size(414, 58);
-            this.button_WOC2.TabIndex = 39;
-            this.button_WOC2.Text = "Laporan Penjualan Beverage";
-            this.button_WOC2.TextColor = System.Drawing.Color.White;
-            this.button_WOC2.UseVisualStyleBackColor = false;
-            // 
-            // button_WOC3
-            // 
-            this.button_WOC3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.button_WOC3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button_WOC3.BorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC3.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(14)))), ((int)(((byte)(9)))));
-            this.button_WOC3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_WOC3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.button_WOC3.Location = new System.Drawing.Point(22, 316);
-            this.button_WOC3.Margin = new System.Windows.Forms.Padding(4);
-            this.button_WOC3.Name = "button_WOC3";
-            this.button_WOC3.OnHoverBorderColor = System.Drawing.Color.Transparent;
-            this.button_WOC3.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(73)))), ((int)(((byte)(42)))));
-            this.button_WOC3.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_WOC3.Size = new System.Drawing.Size(414, 58);
-            this.button_WOC3.TabIndex = 40;
-            this.button_WOC3.Text = "Laporan Keuntungan";
-            this.button_WOC3.TextColor = System.Drawing.Color.White;
-            this.button_WOC3.UseVisualStyleBackColor = false;
-            // 
             // ControllerAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 513);
+            this.ClientSize = new System.Drawing.Size(580, 631);
             this.Controls.Add(this.roundPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ControllerAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ControllerAdmin";

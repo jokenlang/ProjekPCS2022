@@ -207,7 +207,7 @@ namespace proyek
                 radioButton2.Checked = true;
             }
         }
-
+/*
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             int status = 2;
@@ -242,6 +242,6 @@ namespace proyek
             {
                 MessageBox.Show(excep.Message);
             }
-        }
+        }*/
     }
 }

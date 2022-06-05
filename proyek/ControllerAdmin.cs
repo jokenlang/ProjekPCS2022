@@ -39,9 +39,17 @@ namespace proyek
 
         private void btnEditMovie_Click(object sender, EventArgs e)
         {
-            MasterKasir m = new MasterKasir(this);
+            MasterAdmin m = new MasterAdmin(this);
             this.Hide();
             m.Show();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            koneksi.closeConn();
+            Form1 form = new Form1();
+            form.Show();
+            this.Hide();
         }
     }
 }

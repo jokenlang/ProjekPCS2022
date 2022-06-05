@@ -31,7 +31,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnClear = new ePOSOne.btnProduct.Button_WOC();
             this.btnDelete = new ePOSOne.btnProduct.Button_WOC();
-            this.btnUpdate = new ePOSOne.btnProduct.Button_WOC();
             this.btnInsert = new ePOSOne.btnProduct.Button_WOC();
             this.btnBack = new ePOSOne.btnProduct.Button_WOC();
             this.tb_jumlah = new System.Windows.Forms.TextBox();
@@ -74,7 +73,7 @@
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnClear.Location = new System.Drawing.Point(435, 457);
+            this.btnClear.Location = new System.Drawing.Point(292, 457);
             this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
             this.btnClear.OnHoverBorderColor = System.Drawing.Color.Gray;
@@ -94,7 +93,7 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnDelete.Location = new System.Drawing.Point(292, 457);
+            this.btnDelete.Location = new System.Drawing.Point(149, 457);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.OnHoverBorderColor = System.Drawing.Color.Gray;
@@ -106,26 +105,6 @@
             this.btnDelete.TextColor = System.Drawing.Color.White;
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.BorderColor = System.Drawing.Color.Transparent;
-            this.btnUpdate.ButtonColor = System.Drawing.Color.Lime;
-            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(191)))), ((int)(((byte)(177)))));
-            this.btnUpdate.Location = new System.Drawing.Point(149, 457);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.btnUpdate.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.btnUpdate.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.btnUpdate.Size = new System.Drawing.Size(123, 41);
-            this.btnUpdate.TabIndex = 34;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.TextColor = System.Drawing.Color.White;
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnInsert
             // 
@@ -197,7 +176,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(23, 357);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 16);
+            this.label3.Size = new System.Drawing.Size(57, 17);
             this.label3.TabIndex = 39;
             this.label3.Text = "jumlah :";
             // 
@@ -206,7 +185,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(23, 329);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 16);
+            this.label2.Size = new System.Drawing.Size(110, 17);
             this.label2.TabIndex = 38;
             this.label2.Text = "Nama furniture :";
             // 
@@ -215,7 +194,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(23, 303);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 16);
+            this.label7.Size = new System.Drawing.Size(86, 17);
             this.label7.TabIndex = 37;
             this.label7.Text = "ID Furniture:";
             // 
@@ -224,7 +203,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(23, 390);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 16);
+            this.label1.Size = new System.Drawing.Size(113, 17);
             this.label1.TabIndex = 44;
             this.label1.Text = "Tanggal Masuk :";
             // 
@@ -241,7 +220,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(23, 416);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 16);
+            this.label4.Size = new System.Drawing.Size(56, 17);
             this.label4.TabIndex = 46;
             this.label4.Text = "Status :";
             // 
@@ -251,7 +230,7 @@
             this.radioButton1.Location = new System.Drawing.Point(149, 416);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(67, 20);
+            this.radioButton1.Size = new System.Drawing.Size(69, 21);
             this.radioButton1.TabIndex = 47;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Bagus";
@@ -263,7 +242,7 @@
             this.radioButton2.Location = new System.Drawing.Point(231, 416);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(67, 20);
+            this.radioButton2.Size = new System.Drawing.Size(69, 21);
             this.radioButton2.TabIndex = 48;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Rusak";
@@ -300,7 +279,6 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dataGridView1);
@@ -322,7 +300,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private ePOSOne.btnProduct.Button_WOC btnClear;
         private ePOSOne.btnProduct.Button_WOC btnDelete;
-        private ePOSOne.btnProduct.Button_WOC btnUpdate;
         private ePOSOne.btnProduct.Button_WOC btnInsert;
         private ePOSOne.btnProduct.Button_WOC btnBack;
         private System.Windows.Forms.TextBox tb_jumlah;

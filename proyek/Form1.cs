@@ -62,13 +62,13 @@ namespace proyek
                         }
                         else if (status == 3 && (adapass != "" || adapass != null))
                         {
-                          /*  MasterCS m = new MasterCS(this);
+                            MasterCS m = new MasterCS(this);
                             this.Hide();
-                            m.Show();*/
+                            m.Show();
 
-                            Furniture fur = new Furniture(this);
-                            fur.Show();
-                            this.Hide();
+                            /*  Furniture fur = new Furniture(this);
+                              fur.Show();
+                              this.Hide();*/
                         }
                         else
                         {
