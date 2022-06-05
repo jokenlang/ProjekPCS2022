@@ -53,6 +53,12 @@
     <Compile Include="ControllerAdmin.Designer.cs">
       <DependentUpon>ControllerAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Movie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movie.Designer.cs">
+      <DependentUpon>Movie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MasterKasir.resx">
       <DependentUpon>MasterKasir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movie.resx">
+      <DependentUpon>Movie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

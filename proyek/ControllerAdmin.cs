@@ -33,11 +33,15 @@ namespace proyek
         private void btnBuyFurniture_Click(object sender, EventArgs e)
         {
             Furniture m = new Furniture(this);
+            this.Hide();
+            m.Show();
         }
 
         private void btnEditMovie_Click(object sender, EventArgs e)
         {
             MasterKasir m = new MasterKasir(this);
+            this.Hide();
+            m.Show();
         }
     }
 }
