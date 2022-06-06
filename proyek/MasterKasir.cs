@@ -59,7 +59,9 @@ namespace proyek
 
         private void button_WOC2_Click(object sender, EventArgs e)
         {
-
+            Movie m = new Movie(this);
+            this.Hide();
+            m.Show();
         }
 
         private void btnExit_Click_2(object sender, EventArgs e)
@@ -70,7 +72,9 @@ namespace proyek
 
         private void btnBuyBev_Click(object sender, EventArgs e)
         {
-
+            Beverage m = new Beverage(this);
+            this.Hide();
+            m.Show();
         }
     }
 }

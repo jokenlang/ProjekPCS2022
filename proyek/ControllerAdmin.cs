@@ -51,5 +51,12 @@ namespace proyek
             form.Show();
             this.Hide();
         }
+
+        private void button_WOC1_Click(object sender, EventArgs e)
+        {
+            Laporan_Penjualan_Movie m = new Laporan_Penjualan_Movie();
+            this.Hide();
+            m.Show();
+        }
     }
 }
